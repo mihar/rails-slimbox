@@ -1,1 +1,1 @@
-require 'lightbox_view_helper'
+require 'slimbox_view_helper'

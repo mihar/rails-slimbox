@@ -32,4 +32,4 @@ ActionView::Base.class_eval do
   include ActionView::Helpers::SlimBoxHelper
 end
 
-ActionView::Helpers::AssetTagHelper.register_javascript_expansion :slimbox, ["lib/slimbox2"]
+ActionView::Helpers::AssetTagHelper.register_javascript_expansion :slimbox => ["lib/slimbox2"]

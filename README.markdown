@@ -16,13 +16,11 @@ You just have to include them now.
 Because this plugin embeds the slimbox.js into the `:slimbox` option to `javascript_include_tag`.
 You can simply add the `:slimbox` option to an existing line or by itself.
 
-Example:
-
-    <%= javascript_include_tag :defaults, :slimbox, :cache => true %>
+    <%= javascript_include_tag :slimbox %>
 
 You must also include the slimbox stylesheet. Add this to the page head:
 
-    <%= stylesheet_link_tag 'lib/slimbox' %>
+    <%= stylesheet_link_tag 'lib/slimbox2' %>
 
 
 Usage
